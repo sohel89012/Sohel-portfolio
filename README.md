@@ -1,16 +1,35 @@
-# React + Vite
+# Sohil — Creative Designer & Full Stack Web Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal developer portfolio showcasing my projects, technical skills, and visual design aesthetic with smooth micro-interactions and clean editorial hierarchy.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** [https://sohel-portfolio-silk.vercel.app](https://sohel-portfolio-silk.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Custom Preloader & Smooth Animations:** Engaging page-load preloader, curtain reveals, and fluid interactive card transitions.
+- **Responsive Editorial Design:** Minimalist, high-contrast typography and grid layout tailored for seamless viewing across desktop, tablet, and mobile devices.
+- **Interactive Work Showcase:** Curated section highlighting full-stack and frontend development projects.
+- **Resume & Direct Contact:** One-click CV access alongside integrated contact and social media links.
+- **Automated CI/CD Deployment:** Continuously deployed on Vercel directly from the `main` branch on GitHub.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, JavaScript (ES6+), HTML5, CSS3
+- **Build Tool:** Vite
+- **Animations & UI:** GSAP, Motion (`motion/react`)
+- **Hosting & Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started Locally
+
+To run this project on your local machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/sohel89012/Sohel-portfolio.git](https://github.com/sohel89012/Sohel-portfolio.git)
+   cd Sohel-portfolio
