@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FFFFFF;
+  --color-secondary: #111111;
+  --color-accent: #E5E5E5;
+}
+
+html, body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  width: 100%;
+  -webkit-text-size-adjust: 100%;
+}

@@ -1,0 +1,83 @@
+/* Hero.module.css - Component-specific styles and animations */
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(36px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* 1. Navbar: Upar se softly aayegi */
+.animateFadeInDown {
+  animation: fadeInDown 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;
+}
+
+/* 2. Main Title: "CREATIVE DESIGNER & FULL STACK..." */
+.animateHeroText {
+  animation: fadeInUp 0.75s cubic-bezier(0.16, 1, 0.3, 1) 0.18s both;
+}
+
+/* 3. Portrait Image: Right se glide hokar float mode me switch hogi */
+.animateHeroImage {
+  animation-name: fadeInRight, float;
+  animation-duration: 0.85s, 4s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1), ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-delay: 0.25s, 1.1s;
+  animation-fill-mode: both, none;
+}
+
+/* 4. Subtitle: "Turning Ideas Into Meaningful..." */
+.animateHeroDesc {
+  animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.32s both;
+}
+
+/* 5. CTAs aur Social Icons */
+.animateHeroBtns {
+  animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.42s both;
+}
+
+/* Card Hover Elevation */
+.profileCardHover {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.profileCardHover:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 24px 35px -12px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,34 @@
+
+/* Skills.module.css — UI/UX Pro Max Technical Skills Section */
+
+.skillsSection {
+  position: relative;
+  width: 100%;
+  overflow-x: clip;
+}
+
+/* Subtle dot matrix pattern */
+.gridPatternDark {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.gridPatternLight {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Card hardware acceleration */
+.toolCard {
+  will-change: transform, box-shadow, border-color;
+  transform: translateZ(0);
+}
+
+/* Icon hover animation */
+.toolCard:hover .iconBadge {
+  transform: scale(1.08) rotate(-2deg);
+}
+
+.iconBadge {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}

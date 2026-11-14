@@ -1,0 +1,29 @@
+
+/* ==========================================================================
+   AboutSection Component Stylesheet
+   ========================================================================== */
+
+.about-section-root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* GPU Composited Layers */
+.sem-gpu {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Drop shadow & card styling */
+.sem-card-shadow {
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9);
+}
+
+/* Clean text selection */
+.about-section-root ::selection {
+  background: #ffffff;
+  color: #000000;
+}
